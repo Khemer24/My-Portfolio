@@ -466,13 +466,13 @@
                     <div class="experience-card">
                         <div style="display: flex; align-items: start;">
                             <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; margin-right: 15px; flex-shrink: 0;">
-                                <i class="fas fa-graduation-cap" style="font-size: 1.5rem;"></i>
+                                <i class="fas fa-code" style="font-size: 1.5rem;"></i>
                             </div>
                             <div style="flex: 1;">
-                                <h5>WSAP</h5>
-                                <div class="job-title">WordPress Developer Intern</div>
-                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>February 2022 - May 2022</div>
-                                <p>Contributed to the development and customization of WordPress websites, plugins, and themes. Implemented front-end designs using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces. Collaborated with senior developers to address technical challenges, optimize website performance, and stay abreast of WordPress trends and best practices.</p>
+                                <h5>Born Digital</h5>
+                                <div class="job-title">React & Laravel Developer</div>
+                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - Present</div>
+                                <p>Specialized in React & Laravel development, focusing on creating robust and scalable web applications. Explored the latest features of the Laravel framework and utilized its powerful tools to build efficient and maintainable code. Collaborated with cross-functional teams to deliver high-quality software solutions that meet client requirements and enhance user experience.</p>
                             </div>
                         </div>
                     </div>
@@ -492,13 +492,13 @@
                     <div class="experience-card">
                         <div style="display: flex; align-items: start;">
                             <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; margin-right: 15px; flex-shrink: 0;">
-                                <i class="fas fa-code" style="font-size: 1.5rem;"></i>
+                                <i class="fas fa-graduation-cap" style="font-size: 1.5rem;"></i>
                             </div>
                             <div style="flex: 1;">
-                                <h5>Born Digital</h5>
-                                <div class="job-title">React & Laravel Developer</div>
-                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - Present</div>
-                                <p>Specialized in React & Laravel development, focusing on creating robust and scalable web applications. Explored the latest features of the Laravel framework and utilized its powerful tools to build efficient and maintainable code. Collaborated with cross-functional teams to deliver high-quality software solutions that meet client requirements and enhance user experience.</p>
+                                <h5>WSAP</h5>
+                                <div class="job-title">WordPress Developer Intern</div>
+                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>February 2022 - May 2022</div>
+                                <p>Contributed to the development and customization of WordPress websites, plugins, and themes. Implemented front-end designs using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces. Collaborated with senior developers to address technical challenges, optimize website performance, and stay abreast of WordPress trends and best practices.</p>
                             </div>
                         </div>
                     </div>
@@ -750,7 +750,7 @@
                     </div>
                 </div>
             </div>
-            <hr style="margin: 40px 0;">
+            {{-- <hr style="margin: 40px 0;">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h5 class="text-center mb-4" style="font-weight: 700; color: #333;"><i class="fas fa-paper-plane" style="margin-right: 10px; color: #667eea;"></i>Send Me a Message</h5>
@@ -770,7 +770,7 @@
                         <button type="submit" class="btn btn-primary w-100" style="padding: 12px; font-size: 1rem; font-weight: 600;"><i class="fas fa-send" style="margin-right: 8px;"></i>Send Message</button>
                     </form>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
