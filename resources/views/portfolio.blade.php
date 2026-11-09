@@ -469,9 +469,9 @@
                                 <i class="fas fa-code" style="font-size: 1.5rem;"></i>
                             </div>
                             <div style="flex: 1;">
-                                <h5>Born Digital</h5>
+                                <h5>Born Digital LTD</h5>
                                 <div class="job-title">React & Laravel Developer</div>
-                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - Present</div>
+                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - November 2026</div>
                                 <p>Specialized in React & Laravel development, focusing on creating robust and scalable web applications. Explored the latest features of the Laravel framework and utilized its powerful tools to build efficient and maintainable code. Collaborated with cross-functional teams to deliver high-quality software solutions that meet client requirements and enhance user experience.</p>
                             </div>
                         </div>
@@ -482,9 +482,9 @@
                                 <i class="fas fa-code" style="font-size: 1.5rem;"></i>
                             </div>
                             <div style="flex: 1;">
-                                <h5>Webee Labs</h5>
+                                <h5>Born Digital LTD</h5>
                                 <div class="job-title">WordPress Developer</div>
-                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - 2026</div>
+                                <div class="job-dates"><i class="fas fa-calendar" style="margin-right: 8px; color: #667eea;"></i>June 2022 - February 2025</div>
                                 <p>Specialized in WordPress development, focusing on creating responsive websites adaptable to various screen sizes. Explored Gutenberg for intuitive content creation and utilized shortcodes to efficiently add dynamic elements. Worked extensively with templates and custom themes, tailoring designs to meet client needs and enhance user experience. Contributed in team meetings to improve development processes.</p>
                             </div>
                         </div>
