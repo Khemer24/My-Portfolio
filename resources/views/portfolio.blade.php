@@ -513,6 +513,24 @@
             <div class="row g-4">
                 <div class="col-md-4 mb-4">
                     <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-briefcase" style="margin-right: 8px; color: #667eea;"></i>Recruitment Website</h5>
+                            <p class="card-text">Recruitment website focused on understanding employers’ needs and connecting them with screened, work-ready candidates.</p>
+                            <a href="https://1276382.us18.myftpupload.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" style="margin-right: 5px;"></i>View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-link" style="margin-right: 8px; color: #667eea;"></i>MyIP Blockchain</h5>
+                            <p class="card-text">Blockchain identity platform with sign-in for work or citizen accounts.</p>
+                            <a href="https://ipdlt-lwe-0003-wa-qa.azurewebsites.net/login" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" style="margin-right: 5px;"></i>View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
                         {{-- <img src="/media/my-portfolio/projects/nicheave.png" class="card-img-top" alt="NicheAve"> --}}
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-home" style="margin-right: 8px; color: #667eea;"></i>NicheAve</h5>
