@@ -444,6 +444,7 @@
                                 <div class="expertise-item"><i class="fas fa-check-circle" style="color: #667eea; margin-right: 10px;"></i>Custom Theme Development</div>
                             </div>
                             <div class="col-sm-6">
+                                <div class="expertise-item"><i class="fas fa-check-circle" style="color: #667eea; margin-right: 10px;"></i>React JS</div>
                                 <div class="expertise-item"><i class="fas fa-check-circle" style="color: #667eea; margin-right: 10px;"></i>ACF</div>
                                 <div class="expertise-item"><i class="fas fa-check-circle" style="color: #667eea; margin-right: 10px;"></i>Elementor Builder</div>
                                 <div class="expertise-item"><i class="fas fa-check-circle" style="color: #667eea; margin-right: 10px;"></i>Gutenberg Block Editor</div>
