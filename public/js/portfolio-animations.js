@@ -85,7 +85,7 @@
 
     const typedRole = document.querySelector('#typed-role');
     if (typedRole && !reducedMotion) {
-        const roles = ['Laravel & WordPress', 'Laravel', 'WordPress'];
+        const roles = ['Laravel & WordPress', 'Laravel', 'WordPress', 'Vibe coding with Claude'];
         let roleIndex = 0;
         let characterIndex = roles[0].length;
         let deleting = true;

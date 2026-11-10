@@ -58,7 +58,7 @@
                         <a class="button button-quiet" href="/media/my-portfolio/Khemer_Jay_Deguinion_Resume.pdf" download>Download resume <i class="fa-solid fa-download" aria-hidden="true"></i></a>
                     </div>
                     <div class="hero-stack">
-                        <span>Laravel</span><span>PHP</span><span>WordPress</span><span>REST APIs</span>
+                        <span>Laravel</span><span>PHP</span><span>WordPress</span><span>REST APIs</span><span>Claude Code / Vibe coding</span>
                     </div>
                 </div>
                 <div class="hero-portrait-wrap">
