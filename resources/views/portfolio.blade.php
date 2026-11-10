@@ -44,7 +44,7 @@
             <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
             <div class="container hero-layout">
                 <div class="hero-copy">
-                    <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> Backend development · Panabo City, Philippines</div>
+                    <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> Backend development · Carmen, Davao del Norte, Philippines</div>
                     <p class="hero-intro">Hello, I'm</p>
                     <h1>Khemer Jay<br><span class="name-accent">Deguinion</span></h1>
                     <div class="hero-role">
@@ -88,7 +88,7 @@
                 </div>
                 <div class="about-layout">
                     <div class="about-copy reveal">
-                        <p class="lead-copy">I'm a backend developer with <strong>4 years of experience</strong> building and maintaining server-side applications with Laravel (PHP) and custom WordPress.</p>
+                        <p class="lead-copy">I'm a backend developer with <strong>5 years of experience</strong> building and maintaining server-side applications with Laravel (PHP) and custom WordPress.</p>
                         <p>My work spans RESTful API development, database design, third-party integrations, and theme customization. I care about making applications faster and more reliable, securing authentication flows, and working closely with QA and stakeholders to ship dependable software.</p>
                         <p>From Laravel applications and API integrations to custom WordPress builds, I bring a practical, detail-oriented approach to the whole development lifecycle.</p>
                         <a class="text-link" href="#experience">More about my experience <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
@@ -280,7 +280,7 @@
                     <a class="contact-link" href="mailto:khemer.deguinion24@gmail.com"><span class="contact-link-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span><span><small>Email</small><strong>khemer.deguinion24@gmail.com</strong></span><i class="fa-solid fa-arrow-up-right-from-square contact-external" aria-hidden="true"></i></a>
                     <a class="contact-link" href="tel:+639665631269"><span class="contact-link-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span><span><small>Phone</small><strong>+63 966 563 1269</strong></span><i class="fa-solid fa-arrow-up-right-from-square contact-external" aria-hidden="true"></i></a>
                     <a class="contact-link" href="https://www.linkedin.com/in/khemer-jay-deguinion-a73a55227/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></span><span><small>LinkedIn</small><strong>Connect with me</strong></span><i class="fa-solid fa-arrow-up-right-from-square contact-external" aria-hidden="true"></i></a>
-                    <div class="contact-link location-link"><span class="contact-link-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><span><small>Location</small><strong>Panabo City, Philippines</strong></span></div>
+                    <div class="contact-link location-link"><span class="contact-link-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><span><small>Location</small><strong>Carmen, Davao del Norte, Philippines</strong></span></div>
                 </div>
             </div>
         </section>
