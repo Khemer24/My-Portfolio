@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="experience-strip reveal">
-                    <div><strong>4<span>+</span></strong><small>Years in development</small></div>
+                    <div><strong>5<span>+</span></strong><small>Years in development</small></div>
                     <div><strong>Laravel</strong><small>Backend framework</small></div>
                     <div><strong>WordPress</strong><small>CMS &amp; custom builds</small></div>
                     <div><strong>REST APIs</strong><small>Design &amp; integrations</small></div>
@@ -229,24 +229,24 @@
 
         @php
             $projects = [
-                ['name' => 'Recruitment Website', 'description' => 'Recruitment website focused on understanding employers’ needs and connecting them with screened, work-ready candidates.', 'url' => 'https://1276382.us18.myftpupload.com/', 'icon' => 'fa-briefcase', 'type' => 'Recruitment'],
-                ['name' => 'MyIP Blockchain', 'description' => 'Blockchain identity platform with sign-in for work or citizen accounts.', 'url' => 'https://ipdlt-lwe-0003-wa-qa.azurewebsites.net/login', 'icon' => 'fa-link', 'type' => 'Blockchain'],
-                ['name' => 'NicheAve', 'description' => 'Real estate website with a custom WordPress theme, property listings, and search functionality.', 'url' => 'https://nicheave.com/', 'icon' => 'fa-house', 'type' => 'WordPress'],
-                ['name' => 'Excel Homes', 'description' => 'Real estate website with responsive design, a property showcase, and lead generation features.', 'url' => 'https://www.excel.com.mt/', 'icon' => 'fa-building', 'type' => 'Real estate'],
-                ['name' => 'Memo', 'description' => 'E-commerce website with a product catalog and shopping cart.', 'url' => 'https://memolocks.com/', 'icon' => 'fa-cart-shopping', 'type' => 'E-commerce'],
-                ['name' => 'Ben Estates', 'description' => 'Real estate listing platform with property details and filtering.', 'url' => 'https://benestates.com/', 'icon' => 'fa-landmark', 'type' => 'Real estate'],
-                ['name' => 'Fit Fuel', 'description' => 'Health and fitness products store with subscription options.', 'url' => 'https://fitfuelmalta.com/', 'icon' => 'fa-dumbbell', 'type' => 'E-commerce'],
-                ['name' => 'Agriculture Gov', 'description' => 'Government of Malta website with a custom theme.', 'url' => 'https://agriculture.gov.mt/', 'icon' => 'fa-leaf', 'type' => 'Government'],
-                ['name' => 'Curriculum', 'description' => 'Government education website for curriculum resources and public information.', 'url' => 'https://curriculum.gov.mt/', 'icon' => 'fa-book-open', 'type' => 'Education'],
-                ['name' => 'Pixel for the Soul', 'description' => 'Creative website showcasing visual content with a responsive user experience.', 'url' => 'https://pixelsforthesoul.com/', 'icon' => 'fa-palette', 'type' => 'Creative'],
-                ['name' => 'Bason Aluminium', 'description' => 'Business website presenting aluminium products and company details.', 'url' => 'https://basonaluminium.com/', 'icon' => 'fa-industry', 'type' => 'Business'],
-                ['name' => 'OPM', 'description' => 'Government website for public updates, institutional information, and services.', 'url' => 'https://opm.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Government'],
-                ['name' => 'Public Service', 'description' => 'Government service portal for public information and public-sector communication.', 'url' => 'https://publicservice.gov.mt/', 'icon' => 'fa-users', 'type' => 'Government'],
-                ['name' => 'Lifelong Learning', 'description' => 'Education website for learning programs, course information, and public resources.', 'url' => 'https://lifelonglearning.gov.mt/', 'icon' => 'fa-graduation-cap', 'type' => 'Education'],
-                ['name' => 'NTG', 'description' => 'Government platform for organizing key information and public content.', 'url' => 'https://ntg.gov.mt/', 'icon' => 'fa-network-wired', 'type' => 'Government'],
-                ['name' => 'Non State School', 'description' => 'Laravel project for education services and non-state school information management.', 'url' => 'https://education-ips.gov.mt/', 'icon' => 'fa-school', 'type' => 'Laravel'],
-                ['name' => 'CE Malta', 'description' => 'Laravel project for CE Malta.', 'url' => 'https://cemalta.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Laravel'],
-                ['name' => 'Classification State School', 'description' => 'Laravel project for school classification.', 'url' => 'https://classificationedu-0002-lwe-was-qa.azurewebsites.net/', 'icon' => 'fa-school', 'type' => 'Laravel'],
+                ['name' => 'Recruitment Website', 'description' => 'Recruitment website focused on understanding employers’ needs and connecting them with screened, work-ready candidates.', 'url' => 'https://1276382.us18.myftpupload.com/', 'icon' => 'fa-briefcase', 'type' => 'Recruitment', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'MyIP Blockchain', 'description' => 'Backend for a blockchain identity platform with sign-in for work or citizen accounts.', 'url' => 'https://ipdlt-lwe-0003-wa-qa.azurewebsites.net/login', 'icon' => 'fa-link', 'type' => 'Blockchain', 'stack' => ['Laravel'], 'languages' => ['PHP']],
+                ['name' => 'NicheAve', 'description' => 'Real estate website with a custom WordPress theme, property listings, and search functionality.', 'url' => 'https://nicheave.com/', 'icon' => 'fa-house', 'type' => 'Real estate', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Excel Homes', 'description' => 'Real estate website with responsive design, a property showcase, and lead generation features.', 'url' => 'https://www.excel.com.mt/', 'icon' => 'fa-building', 'type' => 'Real estate', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Memo', 'description' => 'E-commerce website with a product catalog and shopping cart.', 'url' => 'https://memolocks.com/', 'icon' => 'fa-cart-shopping', 'type' => 'E-commerce', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Ben Estates', 'description' => 'Real estate listing platform with property details and filtering.', 'url' => 'https://benestates.com/', 'icon' => 'fa-landmark', 'type' => 'Real estate', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Fit Fuel', 'description' => 'Health and fitness products store with subscription options.', 'url' => 'https://fitfuelmalta.com/', 'icon' => 'fa-dumbbell', 'type' => 'E-commerce', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Agriculture Gov', 'description' => 'Government of Malta website with a custom theme.', 'url' => 'https://agriculture.gov.mt/', 'icon' => 'fa-leaf', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Curriculum', 'description' => 'Government education website for curriculum resources and public information.', 'url' => 'https://curriculum.gov.mt/', 'icon' => 'fa-book-open', 'type' => 'Education', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Pixel for the Soul', 'description' => 'Creative website showcasing visual content with a responsive user experience.', 'url' => 'https://pixelsforthesoul.com/', 'icon' => 'fa-palette', 'type' => 'Creative', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Bason Aluminium', 'description' => 'Business website presenting aluminium products and company details.', 'url' => 'https://basonaluminium.com/', 'icon' => 'fa-industry', 'type' => 'Business', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'OPM', 'description' => 'Government website for public updates, institutional information, and services.', 'url' => 'https://opm.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Public Service', 'description' => 'Government service portal for public information and public-sector communication.', 'url' => 'https://publicservice.gov.mt/', 'icon' => 'fa-users', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Lifelong Learning', 'description' => 'Education website for learning programs, course information, and public resources.', 'url' => 'https://lifelonglearning.gov.mt/', 'icon' => 'fa-graduation-cap', 'type' => 'Education', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'NTG', 'description' => 'Government platform for organizing key information and public content.', 'url' => 'https://ntg.gov.mt/', 'icon' => 'fa-network-wired', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Non State School', 'description' => 'Laravel project for education services and non-state school information management.', 'url' => 'https://education-ips.gov.mt/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
+                ['name' => 'CE Malta', 'description' => 'Laravel project for CE Malta.', 'url' => 'https://cemalta.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
+                ['name' => 'Classification State School', 'description' => 'Laravel project for school classification.', 'url' => 'https://classificationedu-0002-lwe-was-qa.azurewebsites.net/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
             ];
         @endphp
         <section class="section projects-section" id="projects">
@@ -262,6 +262,16 @@
                             <div class="project-topline"><span class="project-icon"><i class="fa-solid {{ $project['icon'] }}" aria-hidden="true"></i></span><span class="project-type">{{ $project['type'] }}</span></div>
                             <h3>{{ $project['name'] }}</h3>
                             <p>{{ $project['description'] }}</p>
+                            @if (!empty($project['stack']) || !empty($project['languages']))
+                                <div class="project-details">
+                                    @if (!empty($project['stack']))
+                                        <div class="project-detail"><span class="project-detail-label">Tech stack</span><div class="project-tags">@foreach ($project['stack'] as $technology)<span>{{ $technology }}</span>@endforeach</div></div>
+                                    @endif
+                                    @if (!empty($project['languages']))
+                                        <div class="project-detail"><span class="project-detail-label">Languages</span><div class="project-tags">@foreach ($project['languages'] as $language)<span>{{ $language }}</span>@endforeach</div></div>
+                                    @endif
+                                </div>
+                            @endif
                             <a href="{{ $project['url'] }}" target="_blank" rel="noopener noreferrer" aria-label="Visit {{ $project['name'] }} website">View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                         </article>
                     @endforeach

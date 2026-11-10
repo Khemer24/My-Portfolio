@@ -1073,6 +1073,42 @@ a {
     line-height: 1.75;
 }
 
+.project-details {
+    display: grid;
+    gap: 9px;
+    margin: -4px 0 16px;
+}
+
+.project-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 9px;
+}
+
+.project-detail-label {
+    color: var(--faint);
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.project-tags span {
+    padding: 4px 7px;
+    border: 1px solid rgba(120, 240, 203, 0.15);
+    border-radius: 4px;
+    background: rgba(120, 240, 203, 0.045);
+    color: #b7d9d0;
+    font-family: var(--font-mono);
+    font-size: 0.56rem;
+}
+
 .project-card > a {
     display: inline-flex;
     align-items: center;
