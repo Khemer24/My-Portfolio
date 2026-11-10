@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
+    <link rel="stylesheet" href="/css/portfolio.css">
 </head>
 <body>
     <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
@@ -55,7 +55,7 @@
                     <p class="hero-summary">I build dependable server-side applications, integrations, and WordPress experiences—with a focus on clean code and lasting performance.</p>
                     <div class="hero-actions">
                         <a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
-                        <a class="button button-quiet" href="{{ asset('media/my-portfolio/Khemer_Jay_Deguinion_Resume.pdf') }}" download>Download resume <i class="fa-solid fa-download" aria-hidden="true"></i></a>
+                        <a class="button button-quiet" href="/media/my-portfolio/Khemer_Jay_Deguinion_Resume.pdf" download>Download resume <i class="fa-solid fa-download" aria-hidden="true"></i></a>
                     </div>
                     <div class="hero-stack">
                         <span>Laravel</span><span>PHP</span><span>WordPress</span><span>REST APIs</span>
@@ -64,7 +64,7 @@
                 <div class="hero-portrait-wrap">
                     <div class="portrait-glow" aria-hidden="true"></div>
                     <div class="portrait-frame">
-                        <img src="{{ asset('media/my-portfolio/khemer-jay-deguinion.jpeg') }}" alt="Khemer Jay Deguinion" class="hero-portrait">
+                        <img src="/media/my-portfolio/khemer-jay-deguinion.jpeg" alt="Khemer Jay Deguinion" class="hero-portrait">
                         <div class="portrait-shade" aria-hidden="true"></div>
                         <div class="portrait-caption">
                             <span class="caption-mark">&lt;/&gt;</span>
@@ -290,12 +290,12 @@
         <div class="container footer-inner">
             <a class="navbar-brand brand-mark" href="#home"><span class="brand-icon">&lt;/&gt;</span><span>Khemer<span class="brand-dot">.</span></span></a>
             <p>Backend Developer — Laravel &amp; WordPress</p>
-            <a href="{{ asset('media/my-portfolio/Khemer_Jay_Deguinion_Resume.pdf') }}" download class="footer-resume">Resume <i class="fa-solid fa-download" aria-hidden="true"></i></a>
+            <a href="/media/my-portfolio/Khemer_Jay_Deguinion_Resume.pdf" download class="footer-resume">Resume <i class="fa-solid fa-download" aria-hidden="true"></i></a>
             <small>&copy; {{ date('Y') }} Khemer Jay Deguinion</small>
         </div>
     </footer>
 
-    <script src="{{ asset('js/portfolio-animations.js') }}" defer></script>
+    <script src="/js/portfolio-animations.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>

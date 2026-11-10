@@ -2,11 +2,31 @@
   "version": 2,
   "builds": [
     {
+      "src": "public/css/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/js/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/media/**",
+      "use": "@vercel/static"
+    },
+    {
       "src": "public/index.php",
       "use": "vercel-php@0.7.4"
     }
   ],
   "routes": [
+    {
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/public/js/$1"
+    },
     {
       "src": "/media/(.*)",
       "dest": "/public/media/$1"
