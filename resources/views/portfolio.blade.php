@@ -247,6 +247,8 @@
                 ['name' => 'Non State School', 'description' => 'Laravel project for education services and non-state school information management.', 'url' => 'https://education-ips.gov.mt/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
                 ['name' => 'CE Malta', 'description' => 'Laravel project for CE Malta.', 'url' => 'https://cemalta.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
                 ['name' => 'Classification State School', 'description' => 'Laravel project for school classification.', 'url' => 'https://classificationedu-0002-lwe-was-qa.azurewebsites.net/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
+                ['name' => 'Eskola', 'description' => 'Education website for Eskola Malta.', 'url' => 'https://eskola.edu.mt/', 'icon' => 'fa-school', 'type' => 'Education', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'Asset Recovery Bureau Malta', 'description' => 'Website for the Asset Recovery Bureau Malta.', 'url' => 'https://assetrecovery.mt/', 'icon' => 'fa-building-shield', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
             ];
         @endphp
         <section class="section projects-section" id="projects">
