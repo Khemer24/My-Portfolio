@@ -245,6 +245,8 @@
                 ['name' => 'Lifelong Learning', 'description' => 'Education website for learning programs, course information, and public resources.', 'url' => 'https://lifelonglearning.gov.mt/', 'icon' => 'fa-graduation-cap', 'type' => 'Education'],
                 ['name' => 'NTG', 'description' => 'Government platform for organizing key information and public content.', 'url' => 'https://ntg.gov.mt/', 'icon' => 'fa-network-wired', 'type' => 'Government'],
                 ['name' => 'Non State School', 'description' => 'Laravel project for education services and non-state school information management.', 'url' => 'https://education-ips.gov.mt/', 'icon' => 'fa-school', 'type' => 'Laravel'],
+                ['name' => 'CE Malta', 'description' => 'Laravel project for CE Malta.', 'url' => 'https://cemalta.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Laravel'],
+                ['name' => 'Classification State School', 'description' => 'Laravel project for school classification.', 'url' => 'https://classificationedu-0002-lwe-was-qa.azurewebsites.net/', 'icon' => 'fa-school', 'type' => 'Laravel'],
             ];
         @endphp
         <section class="section projects-section" id="projects">
