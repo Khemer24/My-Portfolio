@@ -145,7 +145,7 @@
                     <article class="skill-card reveal">
                         <span class="skill-card-icon"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>
                         <p class="eyebrow">06 / AI-assisted development</p><h3>AI development tools</h3>
-                        <div class="skill-tags"><span>Claude Code (vibe coding)</span><span>Codex</span><span>Gemini</span></div>
+                        <div class="skill-tags"><span>Vibe coding</span><span>Claude Code</span><span>Codex</span><span>Gemini</span></div>
                     </article>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                                 <li>Implemented blockchain document validation and API integrations.</li>
                                 <li>Improved reliability through logging, caching, and error handling; collaborated with QA and stakeholders during testing and deployment.</li>
                             </ul>
-                            <div class="skill-tags"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>REST APIs</span></div>
+                            <div class="skill-tags"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>REST APIs</span><span>Vibe coding with Claude</span></div>
                         </div>
                     </article>
                     <article class="timeline-item reveal">
