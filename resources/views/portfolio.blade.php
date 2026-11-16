@@ -73,6 +73,12 @@
                     </div>
                     <div class="float-chip chip-api"><i class="fa-solid fa-code" aria-hidden="true"></i> RESTful APIs</div>
                     <div class="float-chip chip-php"><i class="fa-brands fa-php" aria-hidden="true"></i> PHP</div>
+                    <div class="float-chip chip-laravel"><i class="fa-solid fa-code" aria-hidden="true"></i> Laravel</div>
+                    <div class="float-chip chip-wordpress"><i class="fa-brands fa-wordpress" aria-hidden="true"></i> WordPress</div>
+                    <div class="float-chip chip-git"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</div>
+                    <div class="float-chip chip-github"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</div>
+                    <div class="float-chip chip-nintex"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Nintex</div>
+                    <div class="float-chip chip-react"><i class="fa-brands fa-react" aria-hidden="true"></i> React.js</div>
                     <span class="orbit orbit-one" aria-hidden="true"></span>
                     <span class="orbit orbit-two" aria-hidden="true"></span>
                 </div>

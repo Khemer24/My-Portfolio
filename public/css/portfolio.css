@@ -537,6 +537,42 @@ a {
     animation-delay: -2.5s;
 }
 
+.chip-laravel {
+    top: 42%;
+    right: -37px;
+    animation-delay: -1s;
+}
+
+.chip-wordpress {
+    top: 24%;
+    left: -53px;
+    animation-delay: -3s;
+}
+
+.chip-git {
+    top: 58%;
+    right: -24px;
+    animation-delay: -2s;
+}
+
+.chip-github {
+    top: 42%;
+    left: -43px;
+    animation-delay: -4s;
+}
+
+.chip-nintex {
+    top: 74%;
+    right: -28px;
+    animation-delay: -1.5s;
+}
+
+.chip-react {
+    top: 59%;
+    left: -38px;
+    animation-delay: -2.2s;
+}
+
 .orbit {
     position: absolute;
     z-index: -1;
@@ -1597,6 +1633,30 @@ a.contact-link:hover {
 
     .chip-php {
         left: -18px;
+    }
+
+    .chip-wordpress {
+        left: -28px;
+    }
+
+    .chip-github {
+        left: -23px;
+    }
+
+    .chip-react {
+        left: -20px;
+    }
+
+    .chip-laravel {
+        right: -20px;
+    }
+
+    .chip-git {
+        right: -16px;
+    }
+
+    .chip-nintex {
+        right: -18px;
     }
 
     .float-chip {
