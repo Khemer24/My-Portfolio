@@ -30,6 +30,7 @@
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item ms-lg-3"><a class="nav-contact" href="#contact">Let's talk <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                 </ul>
@@ -77,7 +78,7 @@
                     <div class="float-chip chip-wordpress"><i class="fa-brands fa-wordpress" aria-hidden="true"></i> WordPress</div>
                     <div class="float-chip chip-git"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</div>
                     <div class="float-chip chip-github"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</div>
-                    <div class="float-chip chip-nintex"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Nintex</div>
+                    <div class="float-chip chip-vue"><i class="fa-brands fa-vuejs" aria-hidden="true"></i> Vue.js</div>
                     <div class="float-chip chip-react"><i class="fa-brands fa-react" aria-hidden="true"></i> React.js</div>
                     <span class="orbit orbit-one" aria-hidden="true"></span>
                     <span class="orbit orbit-two" aria-hidden="true"></span>
@@ -249,6 +250,34 @@
             </div>
         </section>
 
+        <section class="section achievements-section" id="achievements">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow"><span>05</span> Recognition and achievement</p>
+                    <h2>Certifications &amp; <span class="text-gradient">achievements</span></h2>
+                    <p class="section-subtitle">These recognitions reflect my dedication to learning and the value I bring through collaboration. I received Second Honors during my BSIT studies and a Certificate of Appreciation for representing Webee Labs and contributing to a stakeholder event at ACES Polytechnic College.</p>
+                </div>
+                <div class="achievement-grid">
+                    <article class="achievement-card reveal">
+                        <figure class="achievement-image">
+                            <img src="/media/my-portfolio/second-honors.jpg" alt="Second Honors certificate awarded to Khemer Jay Deguinion for the second semester of 2022–2023" loading="lazy">
+                        </figure>
+                        <div class="education-meta"><span>Second semester, 2022–2023</span><span class="education-level">Academic honor</span></div>
+                        <h3>Second Honors — BSIT IV</h3>
+                        <p class="education-school">Davao del Norte State College</p>
+                    </article>
+                    <article class="achievement-card reveal">
+                        <figure class="achievement-image">
+                            <img src="/media/my-portfolio/stakeholder-appreciation.jpg" alt="Certificate of Appreciation for Khemer Jay Deguinion's contribution to the Webee Labs stakeholder event at ACES Polytechnic College" loading="lazy">
+                        </figure>
+                        <div class="education-meta"><span>September 13, 2025</span><span class="education-level">Appreciation</span></div>
+                        <h3>Stakeholders’ Event Contribution</h3>
+                        <p class="education-school">ACES Polytechnic College · Representative of Webee Labs</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
         @php
             $projects = [
                 ['name' => 'Recruitment Website', 'description' => 'Recruitment website focused on understanding employers’ needs and connecting them with screened, work-ready candidates.', 'url' => 'https://1276382.us18.myftpupload.com/', 'icon' => 'fa-briefcase', 'type' => 'Recruitment', 'stack' => ['WordPress'], 'languages' => ['PHP']],
@@ -267,6 +296,7 @@
                 ['name' => 'Public Service', 'description' => 'Government service portal for public information and public-sector communication.', 'url' => 'https://publicservice.gov.mt/', 'icon' => 'fa-users', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
                 ['name' => 'Lifelong Learning', 'description' => 'Education website for learning programs, course information, and public resources.', 'url' => 'https://lifelonglearning.gov.mt/', 'icon' => 'fa-graduation-cap', 'type' => 'Education', 'stack' => ['WordPress'], 'languages' => ['PHP']],
                 ['name' => 'NTG', 'description' => 'Government platform for organizing key information and public content.', 'url' => 'https://ntg.gov.mt/', 'icon' => 'fa-network-wired', 'type' => 'Government', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'NEDSS', 'description' => 'SharePoint-based system featuring Nintex workflows.', 'url' => 'https://nedss.digitalhealth.gov.mt/', 'icon' => 'fa-diagram-project', 'type' => 'Government', 'stack' => ['SharePoint', 'Nintex', 'Workflow'], 'languages' => []],
                 ['name' => 'Non State School', 'description' => 'Laravel project for education services and non-state school information management.', 'url' => 'https://education-ips.gov.mt/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
                 ['name' => 'CE Malta', 'description' => 'Laravel project for CE Malta.', 'url' => 'https://cemalta.gov.mt/', 'icon' => 'fa-landmark', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
                 ['name' => 'Classification State School', 'description' => 'Laravel project for school classification.', 'url' => 'https://classificationedu-0002-lwe-was-qa.azurewebsites.net/', 'icon' => 'fa-school', 'type' => 'Laravel', 'stack' => ['Laravel'], 'languages' => ['PHP']],
@@ -277,7 +307,7 @@
         <section class="section projects-section" id="projects">
             <div class="container">
                 <div class="section-heading reveal">
-                    <p class="eyebrow"><span>05</span> Selected work</p>
+                    <p class="eyebrow"><span>06</span> Selected work</p>
                     <h2>Projects I've <span class="text-gradient">worked on</span></h2>
                     <p class="section-subtitle">A selection of live websites and applications from my portfolio.</p>
                 </div>
@@ -308,7 +338,7 @@
             <div class="contact-glow" aria-hidden="true"></div>
             <div class="container contact-layout">
                 <div class="contact-copy reveal">
-                    <p class="eyebrow"><span>06</span> Have a project in mind?</p>
+                    <p class="eyebrow"><span>07</span> Have a project in mind?</p>
                     <h2>Let's build something<br><span class="text-gradient">that works.</span></h2>
                     <p>For opportunities, collaborations, or a good conversation about your next project, get in touch.</p>
                     <a class="button button-primary" href="mailto:khemer.deguinion24@gmail.com">Start a conversation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
