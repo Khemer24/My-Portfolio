@@ -147,7 +147,7 @@
                     <article class="skill-card reveal">
                         <span class="skill-card-icon"><i class="fa-solid fa-cubes" aria-hidden="true"></i></span>
                         <p class="eyebrow">02 / Frameworks &amp; CMS</p><h3>Application development</h3>
-                        <div class="skill-tags"><span>Laravel</span><span>React.js</span><span>Blade templating</span><span>WordPress</span><span>Custom themes &amp; plugins</span></div>
+                        <div class="skill-tags"><span>Laravel</span><span>Astro</span><span>Payload</span><span>React.js</span><span>Vue.js</span><span>Blade templating</span><span>WordPress</span><span>Custom themes &amp; plugins</span></div>
                     </article>
                     <article class="skill-card reveal">
                         <span class="skill-card-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></span>
