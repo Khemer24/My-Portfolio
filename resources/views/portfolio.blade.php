@@ -109,6 +109,22 @@
             </div>
         </section>
 
+        <section class="section workspace-section" aria-labelledby="workspace-title">
+            <div class="container">
+                <div class="workspace-layout reveal">
+                    <figure class="workspace-card">
+                        <img src="/media/my-portfolio/wfh-setup.jpg" alt="My work-from-home development setup with a laptop, monitor, mechanical keyboard, and desk accessories" loading="lazy">
+                        <figcaption>My WFH setup</figcaption>
+                    </figure>
+                    <div class="workspace-copy">
+                        <p class="eyebrow"><span>My workspace</span></p>
+                        <h2 id="workspace-title">A setup for <span class="text-gradient">focused work.</span></h2>
+                        <p>My work-from-home setup pairs a laptop with an external monitor so I can keep my code and reference materials in view. A mechanical keyboard, comfortable desk space, and a few favorite desk companions make it a welcoming place to focus, build, and solve problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section skills-section" id="skills">
             <div class="container">
                 <div class="section-heading reveal">
@@ -230,6 +246,7 @@
         @php
             $projects = [
                 ['name' => 'Recruitment Website', 'description' => 'Recruitment website focused on understanding employers’ needs and connecting them with screened, work-ready candidates.', 'url' => 'https://1276382.us18.myftpupload.com/', 'icon' => 'fa-briefcase', 'type' => 'Recruitment', 'stack' => ['WordPress'], 'languages' => ['PHP']],
+                ['name' => 'DConsultants', 'description' => 'WordPress website for a Malta-based accountancy and advisory firm, presenting services for businesses and individuals.', 'url' => 'https://dc.mt/', 'icon' => 'fa-calculator', 'type' => 'Professional services', 'stack' => ['WordPress'], 'languages' => ['PHP']],
                 ['name' => 'MyIP Blockchain', 'description' => 'Backend for a blockchain identity platform with sign-in for work or citizen accounts.', 'url' => 'https://ipdlt-lwe-0003-wa-qa.azurewebsites.net/login', 'icon' => 'fa-link', 'type' => 'Blockchain', 'stack' => ['Laravel'], 'languages' => ['PHP']],
                 ['name' => 'NicheAve', 'description' => 'Real estate website with a custom WordPress theme, property listings, and search functionality.', 'url' => 'https://nicheave.com/', 'icon' => 'fa-house', 'type' => 'Real estate', 'stack' => ['WordPress'], 'languages' => ['PHP']],
                 ['name' => 'Excel Homes', 'description' => 'Real estate website with responsive design, a property showcase, and lead generation features.', 'url' => 'https://www.excel.com.mt/', 'icon' => 'fa-building', 'type' => 'Real estate', 'stack' => ['WordPress'], 'languages' => ['PHP']],

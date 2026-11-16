@@ -671,6 +671,70 @@ a {
     align-content: start;
 }
 
+.workspace-section {
+    overflow: hidden;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background:
+        radial-gradient(ellipse at 12% 50%, rgba(83, 95, 140, 0.1), transparent 42%),
+        #0c111a;
+}
+
+.workspace-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.75fr);
+    align-items: center;
+    gap: clamp(32px, 6vw, 82px);
+}
+
+.workspace-card {
+    position: relative;
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #0a0e16;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+.workspace-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.workspace-card figcaption {
+    position: absolute;
+    inset: auto 0 0;
+    padding: 36px 15px 13px;
+    background: linear-gradient(transparent, rgba(8, 11, 18, 0.9));
+    color: var(--text);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.workspace-copy .eyebrow {
+    margin-bottom: 14px;
+}
+
+.workspace-copy h2 {
+    margin: 0 0 17px;
+    color: var(--text);
+    font-size: clamp(1.8rem, 3.2vw, 2.7rem);
+    font-weight: 800;
+    letter-spacing: -0.055em;
+    line-height: 1.15;
+}
+
+.workspace-copy > p:last-child {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.91rem;
+    line-height: 1.9;
+}
+
 .fact-card {
     display: flex;
     align-items: center;
@@ -1441,9 +1505,14 @@ a.contact-link:hover {
     }
 
     .about-layout,
-    .contact-layout {
+    .contact-layout,
+    .workspace-layout {
         grid-template-columns: 1fr;
         gap: 34px;
+    }
+
+    .workspace-card img {
+        aspect-ratio: 16 / 9;
     }
 
     .experience-strip {
