@@ -95,7 +95,7 @@
                 </div>
                 <div class="about-layout">
                     <div class="about-copy reveal">
-                        <p class="lead-copy">I'm a backend developer with <strong>5 years of experience</strong> building and maintaining server-side applications with Laravel (PHP) and custom WordPress.</p>
+                        <p class="lead-copy">I'm a frontend & backend developer with <strong>5 years of experience</strong> building and maintaining server-side applications with Laravel (PHP) and custom WordPress.</p>
                         <p>My work spans RESTful API development, database design, third-party integrations, and theme customization. I care about making applications faster and more reliable, securing authentication flows, and working closely with QA and stakeholders to ship dependable software.</p>
                         <p>From Laravel applications and API integrations to custom WordPress builds, I bring a practical, detail-oriented approach to the whole development lifecycle.</p>
                         <a class="text-link" href="#experience">More about my experience <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
